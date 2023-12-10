@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us{
+    background-image: linear-gradient(to right,#0A6AA6, #96CCD9, #0396A6, #038C8C, #62D9C3, purple);
+    color: white;
+    padding: 35px;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.name-form{
+    padding: 10px;
+}
+
+.email-form{
+    padding: 10px;
+}
+
+.cpf-form{
+    padding: 10px;
+}
+
+
+form{
+    padding: 35px;
+}
+
+.name-form label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+    
+}
+
+.email-form label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+    
+}
+
+.cpf-form label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 8px;
+    
+}
+
+
+.name-form input {
+    width: 320px;
+    padding: 5px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.email-form input {
+    width: 320px;
+    padding: 5px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.cpf-form input {
+    width: 320px;
+    padding: 5px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-image: linear-gradient(to right,#0A6AA6, #96CCD9, #0396A6, #038C8C, #62D9C3, purple);
+    margin: 30px 0;
+}
+
+button{
+    padding: 8px 25px;
+    font-size: 24px;
+    background: none;
+    border: 1px solid  #62D9C3;
+    border-radius: 5px;
+    transition: all 0.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-image: linear-gradient(to right,#0A6AA6, #96CCD9, #0396A6, #038C8C, #62D9C3, purple); 
+    border: 1px solid #fff; 
+    color: white;
+}
+
+.invalid{
+    border: 1px solid red;
+}
+
+.invalid{
+    border: 1px solid red;
+}
+
+.invalid{
+    border: 1px solid red;
+}
+
+
+.error-hidden{
+    display: none;
+}
+
+.thanks{
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*#0A6AA6*/ 
+/*#96CCD9*/
+/*#0396A6*/
+/*#038C8C*/
+/*#62D9C3*/
